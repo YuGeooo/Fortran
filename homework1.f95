@@ -1,0 +1,13 @@
+PROGRAM MAIN
+IMPLICIT NONE
+REAL:: S, R, T, O
+S=1367
+T=1 
+R=0.3 
+O=5.6696E-8
+
+T=(S*(1-R)/(4*O))**0.25
+WRITE(*,"(' ', 1F10.2)")T
+
+READ(*,*)
+END
